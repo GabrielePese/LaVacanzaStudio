@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    
+    .navbar-default{
+      background-color: white;
+      border: white;
+      padding-top: 10px;
+    }
+    
+    
+    .header{
+    height: 80px;
+    padding-top: 14px;
+    }
+    
+    header img{
+      height: 25px;
+      width: auto;
+    }
+    
+    .navbar-default .navbar-nav > li > a{
+      font-size: 16px;
+    
+    }
+    .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{
+      color:#f18552;
+    }
+    
+    
+    /* JUMBO */
+    .jumbo{
+      margin-top: 50px;
+      margin-bottom: 100px;
+    }
+    .rowjumbo{
+      margin-top: 50px;
+    }
+    
+    
+    .uno{
+      padding-left: 40px;
+      height: 250px;
+    }
+    .uno h1{
+      color:#f18552;
+    }
+    .uno h3{
+      margin-bottom: 20px;
+    }
+    .uno a{
+      text-align: center;
+      background-color: #f18552;
+      color:white;
+      border-radius: 20px;
+      padding: 12px 90px;
+      font-size: 18px;
+      width: 100px;
+    }
+    .due{
+      position: relative;
+      height: 250px;
+    }
+    .due img{
+      position: absolute;
+      right: 0;
+      top: 0 ;
+      height: 250px;
+      width: auto;
+    
+    }
+    /* JUMBO */
+    /*
+    .jumbo .row{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .blocco2{
+      margin-top: 50px;
+      margin-bottom: 20px;
+    }
+    
+    #prima{
+      margin-top: 50px;
+      margin-bottom: 20px;
+    }
+    .all{
+        padding-left: 20px;
+    }
+    
+    .seconda{
+      margin-top: 50px;
+      height: 200px;
+      width: auto;
+      /* background-image: url(img/logo.png);
+      background-size: contain;
+      background-repeat: no-repeat; */
+    /* }
+    #foto1{
+      width: 200px;
+    height: auto;
+    }
+    
+    #promo{
+      padding: 5px 10px;
+      border-radius: 10px;
+      color:white;
+      background-color:#f18552;
+      text-align: center;
+    }
+    
+    #promo img{
+      height: 200px;
+      width: 200px;
+    }  */
+    
+    
+    /* BUSINESS */
+    #business{
+      background-color: white;
+      text-align: center;
+    
+    }
+    #business h6{
+      color: #6f7b97;
+      text-align: center;
+      margin-top: 40px;
+    }
+    #business img{
+      height: 100px;
+      width: auto;
+      max-width: 100%;
+    }
+    
+    #business a{
+      color: #579aff;
+    }
+    
+    #business #stories{
+      margin-top: 30px;
+    }
+    
+    
+    /* 3 COLONNE */
+    .tre-colonne{
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+    .tre-colonne h2{
+      color:#f18552;
+      text-align: center;
+    }
+    
+    .tre-colonne p{
+      text-align: center;
+    }
+    
+    
+    
+    /* ABOUT */
+    #about{
+      background-color: #f18552;
+      text-align: center;
+      color: white;
+    }
+    #about .txt{
+      margin-bottom: 20px;
+    }
+    #about h2 {
+      color:white;
+    }
+    #about a{
+      padding: 10px;
+      border: 1px solid white;
+      border-radius:5px;
+    }
+    
+    #about .linea{
+      height: 50px;
+    }
+    
+    #about .barra{
+      border: 1px solid white;
+      height: 1px;
+      width: 75px;
+      display: inline-block;
+      line-height: 50px;
+    }
+    
+    #about .dl{
+      margin: 30px;
+    }
+    #about a:hover{
+      background-color: white;
+      color:black;
+    }
+    #about i{
+      padding-right: 10px;
+    }
+    
+    #about a{
+      color:white;
+      padding: 10px;
+      text-decoration: none;
+    }
+    
+    
+    /* CONTACT */
+    
+    #contact{
+      background-color: white;
+      margin-bottom: 30px;
+    }
+    
+    #contact h2{
+      color: black;
+    }
+    
+    #contact .linea{
+      height: 50px;
+    }
+    
+    #contact .fa-star{
+      color: black;
+    }
+    
+    #contact .barra{
+      border: 1px solid black;
+      height: 1px;
+      width: 75px;
+      display: inline-block;
+      line-height: 50px;
+    }
+    #contact .form-control{
+      border: none;
+      border-bottom: 1px solid #ccc;
+      box-shadow: none;
+    }
+    
+    #contact .form-control::placeholder{
+      color:black;
+    }
+    
+    #contact button{
+      padding: 10px;
+      background-color: #f18552;
+      color: white;
+      border:none;
+      float:left;
+    }
+    
+    #contact button:hover{
+      padding: 10px;
+      background-color: black;
+      color: white;
+      border:none;
+      float:left;
+    }
+    
+    footer{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 75px;
+      background-color: #f18552;
+      color: white;
+    
+    }
+    
+ 
