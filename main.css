@@ -2,45 +2,86 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
     }
     
-    
-    .navbar-default{
-      background-color: white;
-      border: white;
-      padding-top: 10px;
-    }
     
     
     .header{
-    height: 80px;
-    padding-top: 14px;
+      height: 80px;
+      padding-top: 14px;
+    }
+    
+    header{
+      height: 100px;
+      background-color: #bdbdbd;
     }
     
     header img{
       height: 25px;
       width: auto;
     }
-    
+
+    .navbar-default{
+       background-color: transparent;
+       border: transparent;
+       margin-top: 25px;
+    }
+           
+  
     .navbar-default .navbar-nav > li > a{
       font-size: 16px;
-    
+      font-weight: 400;
+      color: black;
     }
+
+    #compra{
+      background-color: #f18552;
+      color: white;
+      border-radius: 6px;
+    }
+
     .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{
       color:#f18552;
     }
-    
-    
+  
     /* JUMBO */
     .jumbo{
-      margin-top: 50px;
+      margin-top: 25px;
       margin-bottom: 100px;
+    }
+    .spazio{
+      margin-top:40px;
+    }
+    .jumbo h1{
+      color: #f18552;
+      font-weight: 400;
+    }
+    .jumbo h2{
+      font-weight: 300;
     }
     .rowjumbo{
       margin-top: 50px;
     }
-    
-    
+    .rowprodotto{
+      margin-top: 150px;
+    }
+    .prodotto{
+      height: 250px;
+      margin-bottom: 20px;
+     }
+
+    .imgprod{
+      height: 250px;
+      width: auto;
+      border-radius: 10px;
+    }
+
+    .prodotto h4,
+    .prodotto a{
+    color: #f18552;
+    }
+
     .uno{
       padding-left: 40px;
       height: 250px;
@@ -72,52 +113,7 @@
       width: auto;
     
     }
-    /* JUMBO */
-    /*
-    .jumbo .row{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .blocco2{
-      margin-top: 50px;
-      margin-bottom: 20px;
-    }
-    
-    #prima{
-      margin-top: 50px;
-      margin-bottom: 20px;
-    }
-    .all{
-        padding-left: 20px;
-    }
-    
-    .seconda{
-      margin-top: 50px;
-      height: 200px;
-      width: auto;
-      /* background-image: url(img/logo.png);
-      background-size: contain;
-      background-repeat: no-repeat; */
-    /* }
-    #foto1{
-      width: 200px;
-    height: auto;
-    }
-    
-    #promo{
-      padding: 5px 10px;
-      border-radius: 10px;
-      color:white;
-      background-color:#f18552;
-      text-align: center;
-    }
-    
-    #promo img{
-      height: 200px;
-      width: 200px;
-    }  */
-    
+   
     
     /* BUSINESS */
     #business{

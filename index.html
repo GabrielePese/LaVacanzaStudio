@@ -5,6 +5,7 @@
     <title>La Vacanza Studio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/6e14c7bf83.js" crossorigin="anonymous"></script>
@@ -12,82 +13,93 @@
   </head>
   <body>
     <header>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
+      <div class="navabar-fixed-top">
+        <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
           <nav class="navbar navbar-default">
             <div class="container-fluid">
               <!-- Brand and toggle get grouped for better mobile display -->
               <div class="navbar-header">
-    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    <a id="logo" class="navbar-brand" href="#"> <img src="img/logo.png" alt="logo"></a>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                 <span class="sr-only">Toggle navigation</span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                </button>
+                <a id="logo" class="navbar-brand" href="#"> <img src="img/logo.png" alt="logo"></a>
               </div>
-
-  <!-- Collect the nav links, forms, and other content for toggling -->
-  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="#">E-LEARNING</a></li>
-      <li><a href="#">VACANZA STUDIO</a></li>
-      <li><a href="#">INPS INSIEME</a></li>
-      <li><a href="#">CHI SIAMO </a></li>
-      <li><a href="#">CONTATTI</a></li>
-
-
-    </ul>
-  </div><!-- /.navbar-collapse -->
-</div><!-- /.container-fluid -->
-</nav>
+  
+               <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#">E-LEARNING</a></li>
+                  <li><a href="#">VACANZA STUDIO</a></li>
+                  <li><a href="#">INPS INSIEME</a></li>
+                  <li><a href="#">CHI SIAMO </a></li>
+                  <li><a href="#">CONTATTI</a></li>
+                  <li><a id="compra" href="#">COMPRA ONLINE</a></li>
+                </ul>
+              </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+         </nav>
+         </div>
         </div>
       </div>
-    </div>
+
+        
+      </div>
+   
+    
     </header>
     <main>
-      <!-- <div class="jumbo" id="jumbo">
-        <div class="container">
-          <div class="row">
-              <div class="col-xs-12 col-md-6" id="prima">
-                <div class="all">
-                  <h1>Vacanza Studio</h1>
-                  <h5>Ragazzi specializzati nelle vacanze studio e non solo..</h5>
-                  <h5>Prova i nostri corsi online con madrelingua</h5>
-                  <p> <a id="promo" href="#">SCOPRI LE NOSTR PROMOZIONI</a> </p>
-                </div>
-
-              </div>
-              <div class="col-xs-12 col-md-6 blocco2" >
-                <div class="seconda">
-                  <img id="foto1" src="img/logo.png" alt="foto">
-                </div>
-              </div>
-          </div>
-        </div>
-
-      </div> -->
-
-        <div class="jumbo">
+      <div class="jumbo">
           <div class="container">
-            <div class="row rowjumbo">
-              <div class="col-lg-6 col-xs-12 uno">
-                <h1>#LaVacanzaStudio</h1>
-                <h3>Viva la figa</h3>
-                <h3>E chi la castiga</h3>
-                <a href="#">PROMOZIONI</a>
+            <h1>Vacanze studio all’estero <br>
+              e corsi di lingua online </h1>
+              <p><h2>
+                La Vacanza Studio é qui per te. <br>
+                Costruita da giovani per i giovani.</h2></p>
+         
+              <div class="row spazio">
+                <div class="col-lg-4 col-xs-12 prodotto">
+                  <img class="imgprod" src="img/vacanzastudio.jpg" alt="vacanzast">
+                  <h4>Vacanza Studio</h4>
+                  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum iure rem provident perspiciatis maioquasires repellat </p>
+                  <p> <a href="">Clicca qui >></a> </p>
+                </div>
+
+
+                <div class="col-lg-4 col-lg-offset-4 col-xs-12 prodotto">
+                  <img class="imgprod" src="img/alternanza.jpg" alt="alternanza">
+                    <h4>E-learingn</h4>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum iure rem provident perspiciatis maioquasires repellat</p>
+                    <p> <a href="">Clicca qui >></a> </p>
+                </div>
+
               </div>
-              <div class="col-lg-6 col-xs-12 due">
-                <img src="img/logo.png" alt="logo">
+
+              <div class="row rowprodotto">
+              <div class="col-lg-4 col-xs-12 prodotto">
+                <img class="imgprod" src="img/computer.jpg" alt="computer">
+                <h4>E-learingn</h4>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum iure rem provident perspiciatis maioquasires repellat</p>
+                <p> <a href="">Clicca qui >></a> </p>
               </div>
-            </div>
+              <div class="col-lg-4 col-lg-offset-4 col-xs-12 prodotto">
+                <img class="imgprod" src="img/tutor.jpg" alt="tutor">
+                <h4>Tutor</h4>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum iure rem provident perspiciatis maioquasires repellat</p>
+                <p> <a href="">Clicca qui >></a> </p>
+              </div>
+              </div>
+              
+
 
           </div>
-
         </div>
 
-      <div class="section" id="business">
+        <div class="section" id="business">
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
@@ -133,9 +145,120 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
             </div>
 
-            <!-- PAYPAL -->
-            <div class="col-lg-4 col-xs-12">
-              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            
+          </div>
+          <div class="col-lg-4 col-xs-12">
+            <h2>Titolo</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+    <!-- SEZIONE ABOUT! -->
+    
+    <div class="section" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-12">
+            <h2>IL NOSTRO CATALOGO</h2>
+            <div class="linea">
+              <div class="barra">
+                
+              </div>
+              <i class="fas fa-star"></i>
+              <div class="barra">
+                
+              </div>
+            </div>
+            
+            <div class="col-xs-12 col-md-5 col-md-offset-1 txt">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              
+            </div>
+            
+            <div class="col-xs-12 col-md-5">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+            <div class="col-xs-12 col-md-12">
+              <div class="dl">
+                <a href="#"><i class="fas fa-download"></i>Download</a>
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
+        
+      </div>
+      
+      <!-- SEZIONE CONTACT ME -->
+      <div class="section" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-12">
+              <h2>CONTATTACI</h2>
+              <div class="linea">
+                <div class="barra">
+                  
+                </div>
+                <i class="fas fa-star"></i>
+                <div class="barra">
+                  
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-12">
+                <form>
+                  <div class="form-group">
+                    <input type="Name" class="form-control" id="exampleInputName1" placeholder="Nome">
+                  </div>
+                  <div class="form-group">
+                    <input type="Email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <input type="Phone" class="form-control" id="exampleInputPhone1" placeholder="Numero di Telefono">
+                  </div>
+                  <div class="form-group">
+                    <textarea name="name" class="form-control" id="exampleInputText1"  rows="8" cols="80" placeholder="Messaggio"></textarea>
+                  </div>
+                  
+                  <button type="submit" class="btn btn-default">Invia</button>
+                </form>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        
+        <div class="spaziogrigio">
+          
+        </div>
+        <div class="pre-foot">
+          
+        </div>
+      </main>
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-6 fotsx">
+              Copyright 2019 LA VACANZA STUDIO LTD Company n. 11168732
+            </div>
+            <div class="col-xs-6 fotdx">
+              Registered office address: 20-22 Wenlock Road, London, England, N1 7GU
+            </div>
+            
+          </div>
+        </div>
+        
+      </footer>
+      
+    </body>
+    </html>
+    
+    <!-- PAYPAL
+    <div class="col-lg-4 col-xs-12">
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_xclick">
 <input type="hidden" name="business" value="lavacanzastudio@gmail.com">
 <input type="hidden" name="lc" value="IT">
@@ -152,114 +275,4 @@
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
 
-<!-- FINE PAYPAL -->
-
-            </div>
-            <div class="col-lg-4 col-xs-12">
-              <h2>Titolo</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <!-- SEZIONE ABOUT! -->
-
-      <div class="section" id="about">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col-md-12">
-              <h2>IL NOSTRO CATALOGO</h2>
-              <div class="linea">
-                <div class="barra">
-
-                </div>
-                <i class="fas fa-star"></i>
-                <div class="barra">
-
-                </div>
-            </div>
-
-            <div class="col-xs-12 col-md-5 col-md-offset-1 txt">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-            </div>
-
-            <div class="col-xs-12 col-md-5">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </div>
-            <div class="col-xs-12 col-md-12">
-              <div class="dl">
-                <a href="#"><i class="fas fa-download"></i>Download</a>
-              </div>
-
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-
-      <!-- SEZIONE CONTACT ME -->
-      <div class="section" id="contact">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col-md-12">
-              <h2>CONTATTACI</h2>
-                <div class="linea">
-                  <div class="barra">
-
-                  </div>
-                  <i class="fas fa-star"></i>
-                  <div class="barra">
-
-                  </div>
-            </div>
-            <div class="col-xs-12 col-md-12">
-              <form>
-                <div class="form-group">
-                  <input type="Name" class="form-control" id="exampleInputName1" placeholder="Nome">
-                </div>
-                <div class="form-group">
-                  <input type="Email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-                </div>
-                <div class="form-group">
-                  <input type="Phone" class="form-control" id="exampleInputPhone1" placeholder="Numero di Telefono">
-                </div>
-                <div class="form-group">
-                  <textarea name="name" class="form-control" id="exampleInputText1"  rows="8" cols="80" placeholder="Messaggio"></textarea>
-                </div>
-
-                <button type="submit" class="btn btn-default">Invia</button>
-              </form>
-            </div>
-
-        </div>
-        </div>
-      </div>
-
-      <div class="spaziogrigio">
-
-      </div>
-      <div class="pre-foot">
-
-      </div>
-    </main>
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-6 fotsx">
-            Copyright 2019 LA VACANZA STUDIO LTD Company n. 11168732
-          </div>
-          <div class="col-xs-6 fotdx">
-            Registered office address: 20-22 Wenlock Road, London, England, N1 7GU
-          </div>
-
-        </div>
-      </div>
-
-    </footer>
-
-  </body>
-</html>
+FINE PAYPAL -->
