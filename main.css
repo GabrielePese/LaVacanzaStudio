@@ -4,51 +4,54 @@
     box-sizing: border-box;
     font-family: 'Kumbh Sans', sans-serif;
     }
-    
-    
-    
-    .header{
-      height: 80px;
-      padding-top: 14px;
+  
+    @media (max-width: 576px) { 
+      .navbar-collapse{
+        background-color: white;
+      }
     }
     
     header{
       height: 100px;
-      background-color: #bdbdbd;
+      text-align: center;
     }
     
     header img{
       height: 25px;
       width: auto;
     }
+    .navbar-header,
+    .navbar-collapse{
+      margin-top: 20px;
+    }
 
     .navbar-default{
-       background-color: transparent;
-       border: transparent;
-       margin-top: 25px;
+      height: 100px;
+      background-color: #bdbdbd;
     }
-           
-  
+    
+    
     .navbar-default .navbar-nav > li > a{
       font-size: 16px;
       font-weight: 400;
       color: black;
     }
-
+    
+    
     #compra{
       background-color: #f18552;
       color: white;
       border-radius: 6px;
     }
-
+    
     .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{
       color:#f18552;
     }
-  
+    
     /* JUMBO */
     .jumbo{
       margin-top: 25px;
-      margin-bottom: 100px;
+      margin-bottom: 50px;
     }
     .spazio{
       margin-top:40px;
@@ -63,24 +66,36 @@
     .rowjumbo{
       margin-top: 50px;
     }
-    .rowprodotto{
-      margin-top: 150px;
-    }
+    
     .prodotto{
-      height: 250px;
+      height: auto;
       margin-bottom: 20px;
-     }
-
+    }
+    
     .imgprod{
-      height: 250px;
-      width: auto;
+      height: 100%;
+      width: 250px;
       border-radius: 10px;
+      
+    }
+    
+    .prodotto p{
+      color: black;
+    }
+    .black {
+      color: black;
+    }
+    .prodotto .orange{
+      color: orange;
     }
 
-    .prodotto h4,
-    .prodotto a{
-    color: #f18552;
+    .row a:hover {
+      text-decoration: none;
     }
+    .row p a:hover{
+      text-decoration: underline;
+    }
+  
 
     .uno{
       padding-left: 40px;
@@ -111,15 +126,15 @@
       top: 0 ;
       height: 250px;
       width: auto;
-    
+      
     }
-   
+    
     
     /* BUSINESS */
     #business{
       background-color: white;
       text-align: center;
-    
+      
     }
     #business h6{
       color: #6f7b97;
@@ -264,7 +279,8 @@
       height: 75px;
       background-color: #f18552;
       color: white;
-    
+      
     }
     
- 
+
+    
