@@ -162,12 +162,29 @@
       margin-bottom: 20px;
     }
     .tre-colonne h2{
+      margin: 35px 0;
+    }
+    .tre-colonne h4{
       color:#f18552;
       text-align: center;
+     
     }
     
     .tre-colonne p{
       text-align: center;
+    }
+    .tre-colonne img{
+      border-radius: 50%;
+      height: 110px;
+      width: auto;
+      
+
+    }
+    .tre-colonne .recensione{
+      height: 200px;
+    }
+    .tre-colonne #stories{
+      margin-top: 30px;
     }
     
     
