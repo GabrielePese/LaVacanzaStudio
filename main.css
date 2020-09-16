@@ -300,4 +300,71 @@
     }
     
 
+    /* PAGINA VACANZA STUDIO */
+    .row{
+      width: 100%;
+    }
+
+    .lvsimgjumbo{
+      margin-top: 10px;
+      height: 250px;
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .lvsblocco{
+      margin: 5px 10px;
+      border: 1px solid black;
+      height: 250px;
+      border-radius: 10px;
+      color: white;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0.6;
+    }
+
+    .lvsblocco:hover{
+      opacity:1;
+    }
+
+    .titolodestinazione{
+        position: absolute;
+        font-weight: 500;
+        font-size: 36px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+      }
     
+    .lvsblocco:hover .titolodestinazione{
+       font-size: 42px;
+    }
+      
+    .londra{
+      background-image: url("img/london-city.jpg");
+    }
+
+    .malta{
+      background-image: url("img/malta.jpeg");
+    }
+
+    .edimburgo{
+      background-image: url("img/edimburgo.jpeg");
+    }
+
+     .usa{
+       background-image: url("img/usa.jpg");
+     }
+
+
+     /* INGHILTERRA */
+    
+     .inghilterraJumbo{
+      background-image: url("img/Brighton.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 600px;
+      width: 100%;
+     }
