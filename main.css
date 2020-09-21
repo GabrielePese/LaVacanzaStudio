@@ -27,7 +27,7 @@
 
     .navbar-default{
       height: 100px;
-      background-color: #bdbdbd;
+      background-color:#0D5164
     }
     
     
@@ -312,15 +312,19 @@
       border-radius: 10px;
     }
 
+    .quattrocolonne h4{
+      color: #f18552; 
+    }
+
     .lvsblocco{
       margin: 5px 10px;
       border: 1px solid black;
-      height: 250px;
+      height: 200px;
       border-radius: 10px;
       color: white;
       background-position: center;
       background-repeat: no-repeat;
-      background-size: cover;
+      background-size: 100% 200px;
       opacity: 0.6;
     }
 
@@ -336,6 +340,42 @@
         left: 50%;
         transform: translate(-50%,-50%);
       }
+
+      .formcalendario{
+        margin-bottom: 30px;
+      }
+      .boxform{
+        border: 1px solid black;
+      }
+      .formcalendario .form-control{
+        border: none;
+        border-bottom: 1px solid #ccc;
+        box-shadow: none;
+        }
+      .formcalendario h2{
+          color: black;
+        }
+        
+      .formcalendario .linea{
+          height: 50px;
+        }
+        
+      .formcalendario  .fa-star{
+          color: black;
+        }
+        
+      .formcalendario  .barra{
+          border: 1px solid black;
+          height: 1px;
+          width: 75px;
+          display: inline-block;
+          line-height: 50px;
+        }
+
+      .formcalendario form button{
+        margin-left: 200px;
+      }
+      
     
     .lvsblocco:hover .titolodestinazione{
        font-size: 42px;
@@ -356,15 +396,43 @@
      .usa{
        background-image: url("img/usa.jpg");
      }
-
+    .sceglimeta{
+      background-image: url("img/world.jpg");
+     }
 
      /* INGHILTERRA */
     
-     .inghilterraJumbo{
-      background-image: url("img/Brighton.jpg");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 600px;
-      width: 100%;
+     .jumbo h1 img{
+       height: 40px;
+
      }
+     
+
+
+
+/* PER FAQ  */
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
