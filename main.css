@@ -403,8 +403,8 @@
      /* INGHILTERRA */
     
      .jumbo h1 img{
-       height: 40px;
-
+       height: 30px;
+       margin-left: 20px;
      }
      
 
@@ -436,3 +436,40 @@
   display: none;
   overflow: hidden;
 }
+
+
+/* USATO IN SCEGLI LA TUA META PER DISTANZIARE LE 2 ROW  */
+.marginsu{
+  margin-top:20px;
+}
+
+/* 
+TABELLA COSTI */
+
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-left: 5px;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #f18552;
+  color: white;
+  color: white;
+}
+ .tabellacosti{
+   margin-bottom: 30px;
+ }
