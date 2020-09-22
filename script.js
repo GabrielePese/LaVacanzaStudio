@@ -1,14 +1,10 @@
-$(document).ready(function() {
-    $(".accordion").click(function () {
-      $(this).toggleClass("active")
+$(document).ready(function (){
+
+  
+  $("#selectpagamento"). change(function(){
+    var testo = 1
+    var testo = $(this). children("option:selected"). val();
+
+  console.log(testo);
   });
-
 });
-
-// });
-
-
-// $(".bottone-menu").click(function(){
-//     $(".menu2").toggleClass ("active")
-//     $("footer").toggleClass ("hidden")
-//   });
