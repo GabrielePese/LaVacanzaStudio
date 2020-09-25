@@ -55,6 +55,11 @@
       margin-top: 25px;
       margin-bottom: 50px;
     }
+
+    #el1ph{
+      height: 166px;
+    }
+  
     .spazio{
       margin-top:40px;
     }
@@ -178,7 +183,7 @@
     .tre-colonne img{
       border-radius: 50%;
       height: 110px;
-      width: auto;
+      width: 110px;
       
 
     }
@@ -479,8 +484,17 @@ TABELLA COSTI */
 /* 
  PER IL SELECT DEL PAGAMENTO  */
 
-.paypal{
+.paypal1,
+.paypal2,
+.paypal4,
+.paypal8,
+.paypal12{
   margin-top:30px;
+  display: none;
+}
+
+.mostra{
+  display: block;
 }
  #paypal{
    margin: 20px auto;
