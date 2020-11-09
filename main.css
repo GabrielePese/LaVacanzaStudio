@@ -3,41 +3,121 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Kumbh Sans', sans-serif;
+     font-size: 1.05em;
+   
+}
+
+    /* .navbar{
+      height: 80px;
+      position: relative;
     }
-  
-    @media (max-width: 576px) { 
-      .navbar-collapse{
-        background-color: white;
+
+   
+    .vcenter {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    } */
+
+    @media (max-width: 1200px) {
+      *{
+        font-size: 1.1em;
       }
+
+      main{
+        margin-top: 120px;
+      }
+       
+     #bandiera{
+      display: none;
     }
     
-    header{
-      height: 100px;
-      text-align: center;
+
+      .lvsimgjumbo{
+        margin: 25px 0;
+      }
+      .navbar-header {
+          float: none;
+      }
+      
+      #asl{
+        margin-bottom: 50px;
+      }
+
+      .navbar-left,.navbar-right {
+          float: none !important;
+      }
+      .navbar-toggle {
+          display: block;
+      }
+      .navbar-collapse {
+          border-top: 1px solid transparent;
+          box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+      }
+      .navbar-fixed-top {
+          top: 0;
+          border-width: 0 0 1px;
+      }
+      .navbar-collapse.collapse {
+          display: none!important;
+      }
+      .navbar-nav {
+          float: none!important;
+          margin-top: 7.5px;
+      }
+      .navbar-nav>li {
+          float: none;
+      }
+      .navbar-nav>li>a {
+          padding-top: 10px;
+          padding-bottom: 10px;
+      }
+      .collapse.in{
+          display:block !important;
+      }
+
+      main img{
+        object-fit: none;
+        border-radius: 10px;
+      
+      }
+
+      .marginiVariServizi{
+        margin-top:60px;
+        margin-bottom: 0;
+        color:#f18552;
+      }
+
+      #margine{
+        margin-bottom: 0;
+      }
+     
     }
+
+    
+ 
     
     header img{
       height: 25px;
       width: auto;
     }
-    .navbar-header,
-    .navbar-collapse{
-      margin-top: 20px;
-    
+
+   
+
+    .navbar-right li a{
+      color: #f18552 !important;
+    }
+  
+
+    .navbar{
+      color: white;
+      background-color:#267a91;
+     
     }
 
-    .navbar-default{
-      height: 100px;
-      background-color:#267a91
-    }
-    
-    
-    .navbar-default .navbar-nav > li > a{
-      font-size: 16px;
-      font-weight: 400;
-      color: #f18552;
-    }
-
+  
+   
+ 
 
     
     #compra{
@@ -53,12 +133,10 @@
     /* JUMBO */
     .jumbo{
       margin-top: 25px;
-      margin-bottom: 50px;
+      margin-bottom: 60px;
     }
 
-    #el1ph{
-      height: 166px;
-    }
+
   
     .spazio{
       margin-top:40px;
@@ -66,6 +144,7 @@
     .jumbo h1{
       color: #f18552;
       font-weight: 400;
+      margin-bottom: 30px;
     }
     .jumbo h2{
       font-weight: 300;
@@ -80,11 +159,13 @@
     }
     
     .imgprod{
-      height: 100%;
-      width: 250px;
+      height: 20vh;
+      width: 100%;
       border-radius: 10px;
       
     }
+
+
     
     .prodotto p{
       color: black;
@@ -119,7 +200,7 @@
       background-color: #f18552;
       color:white;
       border-radius: 20px;
-      padding: 12px 90px;
+      /* padding: 12px 90px; */
       font-size: 18px;
       width: 100px;
     }
@@ -162,10 +243,15 @@
       margin-top: 30px;
     }
     
-    
+    .separatore{
+      width: 100%;
+      border: 1px solid lightgray;
+      margin-top: 20px;
+      
+    }
     /* 3 COLONNE */
     .tre-colonne{
-      margin-top: 30px;
+      margin-top: 40px;
       margin-bottom: 20px;
     }
     .tre-colonne h2{
@@ -178,14 +264,17 @@
     }
     
     .tre-colonne p{
-      text-align: center;
+      text-align: justify;
     }
     .tre-colonne img{
       border-radius: 50%;
       height: 110px;
       width: 110px;
-      
+    
+    }
 
+    .tre-colonne i{
+      margin-right: 15px;
     }
     .tre-colonne .recensione{
       height: 200px;
@@ -193,8 +282,14 @@
     .tre-colonne #stories{
       margin-top: 30px;
     }
+
+    .marginiVariServizi{
+      color:#f18552;
+    }
     
-    
+    .destinazioni h2{
+      margin-top: 60px;
+    }
     
     /* ABOUT */
     #about{
@@ -214,17 +309,6 @@
       border-radius:5px;
     }
     
-    #about .linea{
-      height: 50px;
-    }
-    
-    #about .barra{
-      border: 1px solid white;
-      height: 1px;
-      width: 75px;
-      display: inline-block;
-      line-height: 50px;
-    }
     
     #about .dl{
       margin: 30px;
@@ -255,21 +339,7 @@
       color: black;
     }
     
-    #contact .linea{
-      height: 50px;
-    }
     
-    #contact .fa-star{
-      color: black;
-    }
-    
-    #contact .barra{
-      border: 1px solid black;
-      height: 1px;
-      width: 75px;
-      display: inline-block;
-      line-height: 50px;
-    }
     #contact .form-control{
       border: none;
       border-bottom: 1px solid #ccc;
@@ -300,7 +370,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 75px;
+      height: 100px;
       background-color: #f18552;
       color: white;
       
@@ -308,19 +378,23 @@
     
 
     /* PAGINA VACANZA STUDIO */
-    .row{
-      width: 100%;
-    }
+  
 
     .lvsimgjumbo{
-      margin-top: 10px;
+      
       height: 250px;
       width: 100%;
       border-radius: 10px;
     }
-
+    .quattrocolonne{
+      margin: 20px 0;
+    }
     .quattrocolonne h4{
       color: #f18552; 
+    }
+
+    .margine{
+      margin-bottom: 38px;
     }
 
     .lvsblocco{
@@ -329,6 +403,16 @@
       height: 200px;
       border-radius: 10px;
       color: white;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% 200px;
+      opacity: 0.6;
+    }
+    .lvsbloccobandiera{
+      
+      border: 1px solid black;
+      height: 200px;
+      border-radius: 10px;
       background-position: center;
       background-repeat: no-repeat;
       background-size: 100% 200px;
@@ -391,25 +475,85 @@
     .londra{
       background-image: url("img/london-city.jpg");
     }
-
+    .londradue{
+      background-image: url("img/london.jpg");
+    }
+    .brig{
+      background-image: url("img/brig.jpg");
+    }
     .malta{
       background-image: url("img/malta.jpeg");
+    }
+
+    .malta2{
+      background-image: url("img/malta-estate.jpg");
     }
 
     .edimburgo{
       background-image: url("img/edimburgo.jpeg");
     }
+    .glasgow{
+      background-image: url("img/glasgow.jpg");
+    }
 
      .usa{
        background-image: url("img/usa.jpg");
      }
+
+     .usa2{
+      background-image: url("img/nyc.jpg");
+    }
+
+    .sandiego{
+      background-image: url("img/sandiego.jpg");
+    }
+
+     .pts{
+  
+        background-image: url("img/ppts.jfif");
+      
+     }
+     .bou{
+  
+      background-image: url("img/bou.jpg");
+    
+   }
+     .cad{
+      background-image: url("img/canada2.jpg");
+     }
     .sceglimeta{
       background-image: url("img/world.jpg");
      }
+     .van{
+
+      background-image: url("img/vancou.jpg");
+     }
+     .tor{
+      background-image: url("img/tor.jpg");
+     }
+
+     .bandierauk{
+      background-image: url("img/bandierauk.webp");
+     }
+     .bandieraesp{
+      background-image: url("img/spflag.webp");
+     }
+     .bandierafra{
+      background-image: url("img/franceflag.webp");
+     }
+      .bandieracina{
+      background-image: url("img/chinaflag.png");
+     }
+     .bandieraaraba{
+      background-image: url("img/arabaflag.png");
+     }
+
+
 
      /* INGHILTERRA */
-    
-     .jumbo h1 img{
+   
+     
+     #bandiera{
        height: 30px;
        margin-left: 20px;
      }
@@ -479,6 +623,7 @@ TABELLA COSTI */
 }
  .tabellacosti{
    margin-bottom: 30px;
+   margin-top: 65px;
  }
 
 /* 

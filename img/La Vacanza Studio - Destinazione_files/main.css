@@ -1,0 +1,582 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+     font-size: 1.05em;
+   
+}
+
+    /* .navbar{
+      height: 80px;
+      position: relative;
+    }
+
+   
+    .vcenter {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    } */
+
+    @media (max-width: 1200px) {
+      *{
+        font-size: 1.1em;
+      }
+
+      main{
+        margin-top: 120px;
+      }
+       
+     #bandiera{
+      display: none;
+    }
+    
+
+      .lvsimgjumbo{
+        margin: 25px 0;
+      }
+      .navbar-header {
+          float: none;
+      }
+      
+      #asl{
+        margin-bottom: 50px;
+      }
+
+      .navbar-left,.navbar-right {
+          float: none !important;
+      }
+      .navbar-toggle {
+          display: block;
+      }
+      .navbar-collapse {
+          border-top: 1px solid transparent;
+          box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+      }
+      .navbar-fixed-top {
+          top: 0;
+          border-width: 0 0 1px;
+      }
+      .navbar-collapse.collapse {
+          display: none!important;
+      }
+      .navbar-nav {
+          float: none!important;
+          margin-top: 7.5px;
+      }
+      .navbar-nav>li {
+          float: none;
+      }
+      .navbar-nav>li>a {
+          padding-top: 10px;
+          padding-bottom: 10px;
+      }
+      .collapse.in{
+          display:block !important;
+      }
+
+      main img{
+        object-fit: none;
+        border-radius: 10px;
+      
+      }
+     
+    }
+
+    
+ 
+    
+    header img{
+      height: 25px;
+      width: auto;
+    }
+
+   
+
+    .navbar-right li a{
+      color: #f18552 !important;
+    }
+  
+
+    .navbar{
+      color: white;
+      background-color:#267a91;
+     
+    }
+
+  
+   
+ 
+
+    
+    #compra{
+      background-color: #f18552;
+      color: white;
+      border-radius: 6px;
+    }
+    
+    .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{
+      color:#f18552;
+    }
+    
+    /* JUMBO */
+    .jumbo{
+      margin-top: 25px;
+      margin-bottom: 50px;
+    }
+
+
+  
+    .spazio{
+      margin-top:40px;
+    }
+    .jumbo h1{
+      color: #f18552;
+      font-weight: 400;
+      margin-bottom: 30px;
+    }
+    .jumbo h2{
+      font-weight: 300;
+    }
+    .rowjumbo{
+      margin-top: 50px;
+    }
+    
+    .prodotto{
+      height: auto;
+      margin-bottom: 20px;
+    }
+    
+    .imgprod{
+      height: 20vh;
+      width: 100%;
+      border-radius: 10px;
+      
+    }
+
+
+    
+    .prodotto p{
+      color: black;
+    }
+    .black {
+      color: black;
+    }
+    .prodotto .orange{
+      color: orange;
+    }
+
+    .row a:hover {
+      text-decoration: none;
+    }
+    .row p a:hover{
+      text-decoration: underline;
+    }
+  
+
+    .uno{
+      padding-left: 40px;
+      height: 250px;
+    }
+    .uno h1{
+      color:#f18552;
+    }
+    .uno h3{
+      margin-bottom: 20px;
+    }
+    .uno a{
+      text-align: center;
+      background-color: #f18552;
+      color:white;
+      border-radius: 20px;
+      /* padding: 12px 90px; */
+      font-size: 18px;
+      width: 100px;
+    }
+    .due{
+      position: relative;
+      height: 250px;
+    }
+    .due img{
+      position: absolute;
+      right: 0;
+      top: 0 ;
+      height: 250px;
+      width: auto;
+      
+    }
+    
+    
+    /* BUSINESS */
+    #business{
+      background-color: white;
+      text-align: center;
+      
+    }
+    #business h6{
+      color: #6f7b97;
+      text-align: center;
+      margin-top: 40px;
+    }
+    #business img{
+      height: 100px;
+      width: auto;
+      max-width: 100%;
+    }
+    
+    #business a{
+      color: #579aff;
+    }
+    
+    #business #stories{
+      margin-top: 30px;
+    }
+    
+    .separatore{
+      width: 100%;
+      border: 1px solid lightgray;
+      margin-top: 20px;
+      
+    }
+    /* 3 COLONNE */
+    .tre-colonne{
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+    .tre-colonne h2{
+      margin: 35px 0;
+    }
+    .tre-colonne h4{
+      color:#f18552;
+      text-align: center;
+     
+    }
+    
+    .tre-colonne p{
+      text-align: justify;
+    }
+    .tre-colonne img{
+      border-radius: 50%;
+      height: 110px;
+      width: 110px;
+      
+
+    }
+    .tre-colonne .recensione{
+      height: 200px;
+    }
+    .tre-colonne #stories{
+      margin-top: 30px;
+    }
+    
+    
+    
+    /* ABOUT */
+    #about{
+      background-color: #f18552;
+      text-align: center;
+      color: white;
+    }
+    #about .txt{
+      margin-bottom: 20px;
+    }
+    #about h2 {
+      color:white;
+    }
+    #about a{
+      padding: 10px;
+      border: 1px solid white;
+      border-radius:5px;
+    }
+    
+    
+    #about .dl{
+      margin: 30px;
+    }
+    #about a:hover{
+      background-color: white;
+      color:black;
+    }
+    #about i{
+      padding-right: 10px;
+    }
+    
+    #about a{
+      color:white;
+      padding: 10px;
+      text-decoration: none;
+    }
+    
+    
+    /* CONTACT */
+    
+    #contact{
+      background-color: white;
+      margin-bottom: 30px;
+    }
+    
+    #contact h2{
+      color: black;
+    }
+    
+    
+    #contact .form-control{
+      border: none;
+      border-bottom: 1px solid #ccc;
+      box-shadow: none;
+    }
+    
+    #contact .form-control::placeholder{
+      color:black;
+    }
+    
+    #contact button{
+      padding: 10px;
+      background-color: #f18552;
+      color: white;
+      border:none;
+      float:left;
+    }
+    
+    #contact button:hover{
+      padding: 10px;
+      background-color: black;
+      color: white;
+      border:none;
+      float:left;
+    }
+    
+    footer{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 75px;
+      background-color: #f18552;
+      color: white;
+      
+    }
+    
+
+    /* PAGINA VACANZA STUDIO */
+    .row{
+      width: 100%;
+    }
+
+    .lvsimgjumbo{
+      
+      height: 250px;
+      width: 100%;
+      border-radius: 10px;
+    }
+    .quattrocolonne{
+      margin: 20px 0;
+    }
+    .quattrocolonne h4{
+      color: #f18552; 
+    }
+
+    .lvsblocco{
+      margin: 5px 10px;
+      border: 1px solid black;
+      height: 200px;
+      border-radius: 10px;
+      color: white;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% 200px;
+      opacity: 0.6;
+    }
+
+    .lvsblocco:hover{
+      opacity:1;
+    }
+
+    .titolodestinazione{
+        position: absolute;
+        font-weight: 500;
+        font-size: 36px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+      }
+
+      .formcalendario{
+        margin-bottom: 30px;
+      }
+      .boxform{
+        border: 1px solid black;
+      }
+      .formcalendario .form-control{
+        border: none;
+        border-bottom: 1px solid #ccc;
+        box-shadow: none;
+        }
+      .formcalendario h2{
+          color: black;
+        }
+        
+      .formcalendario .linea{
+          height: 50px;
+        }
+        
+      .formcalendario  .fa-star{
+          color: black;
+        }
+        
+      .formcalendario  .barra{
+          border: 1px solid black;
+          height: 1px;
+          width: 75px;
+          display: inline-block;
+          line-height: 50px;
+        }
+
+      .formcalendario form button{
+        margin-left: 200px;
+      }
+      
+    
+    .lvsblocco:hover .titolodestinazione{
+       font-size: 42px;
+    }
+      
+    .londra{
+      background-image: url("img/london-city.jpg");
+    }
+    .brig{
+      background-image: url("img/brig.jpg");
+    }
+    .malta{
+      background-image: url("img/malta.jpeg");
+    }
+
+    .edimburgo{
+      background-image: url("img/edimburgo.jpeg");
+    }
+    .glasgow{
+      background-image: url("img/glasgow.jpg");
+    }
+
+     .usa{
+       background-image: url("img/usa.jpg");
+     }
+     .pts{
+  
+        background-image: url("img/ppts.jfif");
+      
+     }
+     .bou{
+  
+      background-image: url("img/bou.jpg");
+    
+   }
+     .cad{
+      background-image: url("img/canada2.jpg");
+     }
+    .sceglimeta{
+      background-image: url("img/world.jpg");
+     }
+
+
+     /* INGHILTERRA */
+   
+     
+     #bandiera{
+       height: 30px;
+       margin-left: 20px;
+     }
+     
+
+
+
+/* PER FAQ  */
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+
+/* USATO IN SCEGLI LA TUA META PER DISTANZIARE LE 2 ROW  */
+.marginsu{
+  margin-top:20px;
+}
+
+/* 
+TABELLA COSTI */
+
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-left: 5px;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #f18552;
+  color: white;
+  color: white;
+}
+ .tabellacosti{
+   margin-bottom: 30px;
+ }
+
+/* 
+ PER IL SELECT DEL PAGAMENTO  */
+
+.paypal1,
+.paypal2,
+.paypal4,
+.paypal8,
+.paypal12{
+  margin-top:30px;
+  display: none;
+}
+
+.mostra{
+  display: block;
+}
+ #paypal{
+   margin: 20px auto;
+ }
+
+ .payimg{
+   height: 55px;
+   width: 160px;
+   margin-bottom: 25px;
+ }
+
+
